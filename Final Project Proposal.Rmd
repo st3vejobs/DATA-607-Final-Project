@@ -1,0 +1,43 @@
+---
+title: "Sloan Digital Sky Survey Exploration"
+author: "Shane Hylton"
+date: "11/14/2021"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Proposal
+
+I have always found astronomy to be very inspiring. I began my college career as an astronomy major. Over the past few months, I have grown increasingly attracted to the idea of studying astronomy again. After searching for interesting astronomy datasets, I found the Sloan Digital Sky Survey. I first learned about SDSS in my freshman year of college, but I forgot about it until very recently. SDSS has a unique search interface, as it primarily uses SQL commands to generate data.
+
+For this project, I will be using SQL commands from [SkyServer](http://skyserver.sdss.org/dr16/en/tools/search/sql.aspx) to construct my datasets. I may also reference an older dataset that I found on [kaggle](https://www.kaggle.com/lucidlenn/sloan-digital-sky-survey?select=Skyserver_SQL2_27_2018+6_51_39+PM.csv). Depending on what I can find on SkyServer, I would like to see if I can use the data to identify the classification of the stars found in SDSS. If there is not enough data available to organize stars by class, I will perform some exploratory analysis on the data I can find and I will provide plots and summary information, such as masses, population of galaxies versus stars in the survey, and averages for the different celestial bodies. If I can figure it out, I would like to see if I can develop a map using the 3D coordinates available.
+
+
+### Links
+
+http://skyserver.sdss.org/dr16/en/tools/search/sql.aspx
+
+https://www.kaggle.com/lucidlenn/sloan-digital-sky-survey?select=Skyserver_SQL2_27_2018+6_51_39+PM.csv
+
+https://www.kaggle.com/brsdincer/star-type-classification
+
+
+#### Other ideas 
+
+Just in case, I will list some other ideas that came to mind for this project. 
+
+I could parse through all of Stephen Hawking's books to try and conclude who Hawking's favorite scientist was. 
+I am actually quite interested in this question, I think it could be an enjoyable project. 
+After a quick search, I could not find any of his books available online, but perhaps I am not looking in the right places. 
+
+I could analyze exoplanets and possible exoplanets found by the Kepler satellite. 
+
+
+
